@@ -10,8 +10,7 @@ public class Student
 		Console.Write("Enter Student name:");
 		sname = Console.ReadLine();
 		Console.Write("Enter Roll number:");
-		roll = Convert.ToInt32(Console.ReadLine());
-		
+		roll = Convert.ToInt32(Console.ReadLine());	
 	}
 
 	public void showData()
@@ -19,7 +18,6 @@ public class Student
 		Console.WriteLine("Student Details => ");
 		Console.WriteLine("Student name :" + sname);
 		Console.WriteLine("Roll number :" + roll);
-		
 	}
 
 	public static void Main(string[] args)
